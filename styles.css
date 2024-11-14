@@ -32,10 +32,6 @@
     transition: opacity 0.2s ease;
 }
 
-.custom-checkbox input:focus ~ .checkmark-wrapper .checkmark {
-    outline: 2px solid #fff;
-}
-
 .custom-checkbox input:checked ~ .checkmark-wrapper .checkmark {
     background-color: #000;
     border-color: #000;
